@@ -6,9 +6,17 @@ module.exports = {
     author: `@MrShouvikBasu`,
     github: {
       cleanapps: `https://github.com/clean-apps`,
+      cleanscan: `https://github.com/clean-apps/CleanSCAN`,
+      cleanlauncher: `https://github.com/clean-apps/CleanLauncher`,
+      cleanhabits: `https://github.com/clean-apps/CleanHabits`,
+      cleantodo: `https://github.com/clean-apps/CleanToDO`,
     },
     playStore: {
       cleanapps: `https://play.google.com/store/apps/developer?id=Shouvik+Basu`,
+      cleanscan: `https://play.google.com/store/apps/details?id=com.babanomania.pdfscanner`,
+      cleanlauncher: `https://play.google.com/store/apps/details?id=com.babanomania.CleanLauncher`,
+      cleanhabits: `https://play.google.com/store/apps/details?id=com.babanomania.CleanHabits`,
+      cleantodo: `https://play.google.com/store/apps/details?id=com.babanomania.cleantodo`,
     },
   },
   plugins: [

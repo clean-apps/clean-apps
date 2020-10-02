@@ -8,7 +8,7 @@ const ValueProp = (props) => {
         <div className="main-message">
           <h1>Minimal, Open Source Productivity Apps</h1>
           <p className="main-subtitle">
-            That gets you busy, For the things that matter.
+            That gets you busy, for the things that matter.
           </p>
           <Button label="Get Started" />
         </div>
