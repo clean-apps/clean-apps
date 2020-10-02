@@ -37,6 +37,7 @@
 .b-row {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 @include breakpoint("from-tablet-p") {

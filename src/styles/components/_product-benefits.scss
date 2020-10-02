@@ -9,8 +9,7 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, minmax(10rem, 1fr));
-  grid-gap: 2em;
-  align-items: center;
+  align-items: self-end;
   justify-items: center;
   width: 90%;
 }
@@ -73,6 +72,7 @@
   font-size: 2rem;
   font-weight: 600;
   width: 100%;
+  padding-top: 4rem;
 }
 
 .product-app-4-image {
@@ -85,9 +85,12 @@
 }
 
 @include breakpoint("from-tablet-p") {
+  .product-app {
+    padding-left: 2rem;
+  }
+
   .product-app-group {
-    // row-gap: 4em;
-    // width: 100%;
+    align-items: center;
   }
 
   .product-app-1-tagline {
@@ -136,7 +139,13 @@
 }
 
 @include breakpoint("from-laptop") {
+  .product-app {
+    padding-left: 2rem;
+  }
+
   .product-app-group {
     grid-template-rows: repeat(8, minmax(16rem, 1fr));
+    align-items: center;
+    grid-gap: 2em;
   }
 }
