@@ -23,7 +23,7 @@
 }
 
 .main-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -42,9 +42,22 @@
   margin: 0 auto;
 }
 
+.msg-title {
+  font-size: 1.75em;
+}
+
 @include breakpoint("from-tablet-l") {
   .value-prop-content {
     margin: 2rem auto 3rem auto;
+  }
+
+  .msg-title {
+    font-size: 2em;
+  }
+
+  .main-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   .main-message {

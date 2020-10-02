@@ -17,7 +17,7 @@ const Button = ({ label }) => {
   );
   return (
     <button
-      className="button"
+      className="button button-valprop"
       onClick={(e) => {
         e.preventDefault();
         window.location.href = site.siteMetadata.playStore.cleanapps;

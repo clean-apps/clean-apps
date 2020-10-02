@@ -6,7 +6,7 @@ const ValueProp = (props) => {
     <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
-          <h1>Minimal, Open Source Productivity Apps</h1>
+          <h1 className="msg-title">Minimal, Open Source Productivity Apps</h1>
           <p className="main-subtitle">
             That gets you busy, for the things that matter.
           </p>

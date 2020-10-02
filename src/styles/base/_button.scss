@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+.button-valprop {
+  margin-top: 1.5em;
+}
+
 .button:hover {
   opacity: 0.5;
 }
@@ -20,7 +24,7 @@
   color: $buttonColor;
   border-color: $buttonColor;
   border-radius: 2rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
